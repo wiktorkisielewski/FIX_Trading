@@ -4,13 +4,13 @@ A sandbox made in python allowing anyone to trade through FIX protocol (Financia
 # Basic utilities
 price.py and trade.py are made to create and send basic FIX messages throught web socket. They both need auth.py file that should look like this:
 
-SessionQualifier = '######'
-SenderCompID = '#####'
-TargetCompID = '#####'
-Username = '#####'
-Password = '#####'
-SocketConnectHost = '#####'
-SocketConnectPort = ###
+SessionQualifier = '######' </br>
+SenderCompID = '#####' </br>
+TargetCompID = '#####' </br>
+Username = '#####' </br>
+Password = '#####' </br>
+SocketConnectHost = '#####' </br>
+SocketConnectPort = ### </br>
 
 price.py file is responsible for updating quotes (prices), they should be gathered from broker or exchange server.
 trade.py is made for sending orders and reciving execution reports.
